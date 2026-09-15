@@ -37,7 +37,7 @@ function mooBtn(){
             sentences[i] = words.join(" ");
         }
     }
-    //join sentences to the textfield2
+    //join sentences to the textfield
     document.getElementById("TextFieldID").value = sentences.join(".");
 }
 
